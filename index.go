@@ -1,7 +1,6 @@
 package main;
 
 import (
-  "log";
   "io/ioutil";
   "net/http";
   "encoding/json";
@@ -52,6 +51,5 @@ func PostJS(res http.ResponseWriter, req *http.Request) {
     res.Write([]byte(err.Error()));
     return;
   }
-  log.Print(_ret);
   res.Write([]byte(_ret));
 };
