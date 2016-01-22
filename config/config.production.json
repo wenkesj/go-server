@@ -1,7 +1,7 @@
 {
   "server": {
     "address": "localhost",
-    "port": ":3000"
+    "port": ":80"
   },
   "redis": {
     "host": "localhost",
